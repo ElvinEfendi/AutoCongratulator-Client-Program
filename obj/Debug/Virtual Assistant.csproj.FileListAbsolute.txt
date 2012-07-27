@@ -1,0 +1,63 @@
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formAboutProgram.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formAcBirthday.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formAcUserProfile.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formAcUserRegistration.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formFeedBack.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formMain.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formViewNews.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.Properties.Resources.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Virtual Assistant.csproj.GenerateResource.Cache
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\bin\Debug\Virtual Assistant.exe.config
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\bin\Debug\Virtual Assistant.exe.manifest
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\bin\Debug\Virtual Assistant.application
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\bin\Debug\Virtual Assistant.exe
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\bin\Debug\Virtual Assistant.pdb
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Virtual Assistant.TrustInfo.xml
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Virtual Assistant.exe.manifest
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Virtual Assistant.application
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Virtual Assistant.exe
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Virtual Assistant.pdb
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.Splash.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\bin\Debug\Virtual Assistant.exe.config
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\obj\Debug\Virtual Assistant.exe
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\obj\Debug\Virtual Assistant.pdb
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\bin\Debug\Virtual Assistant.exe.manifest
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\bin\Debug\Virtual Assistant.application
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\bin\Debug\Virtual Assistant.exe
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\bin\Debug\Virtual Assistant.pdb
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formAboutProgram.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formAcBirthday.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formAcUserProfile.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formAcUserRegistration.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formFeedBack.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formMain.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formViewNews.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.Properties.Resources.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.Splash.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\obj\Debug\Virtual Assistant.csproj.GenerateResource.Cache
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\obj\Debug\Virtual Assistant.TrustInfo.xml
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\obj\Debug\Virtual Assistant.exe.manifest
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant-(11-28-2010)\Pulsuz Mesaj\obj\Debug\Virtual Assistant.application
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\bin\Debug\Virtual Assistant.exe.config
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\obj\Debug\Virtual Assistant.exe
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\obj\Debug\Virtual Assistant.pdb
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\bin\Debug\Virtual Assistant.exe.manifest
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\bin\Debug\Virtual Assistant.application
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\bin\Debug\Virtual Assistant.exe
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\bin\Debug\Virtual Assistant.pdb
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formAboutProgram.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formAcBirthday.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formAcUserProfile.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formAcUserRegistration.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formFeedBack.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formMain.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formViewNews.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.Properties.Resources.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.Splash.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\obj\Debug\Virtual Assistant.csproj.GenerateResource.Cache
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\obj\Debug\Virtual Assistant.TrustInfo.xml
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\obj\Debug\Virtual Assistant.exe.manifest
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Virtual Assistant\Pulsuz Mesaj\obj\Debug\Virtual Assistant.application

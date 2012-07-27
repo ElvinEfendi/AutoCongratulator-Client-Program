@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Pulsuz_Mesaj.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Pulsuz_Mesaj_Services_SimpleService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://yoxlama.com/azinf/WebServices/getNews.php</Value>
+    </Setting>
+    <Setting Name="Pulsuz_Mesaj_AutoCongratulate_AutoCongratulate" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://yoxlama.com/AutoCongratulate/WebServices/autocongrat.php</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.0.0.0" name="Pulsuz Mesaj.exe" publicKeyToken="6c5103b17ebfadf7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Pulsuz Mesaj" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Pulsuz Mesaj.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.Entity" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Pulsuz Mesaj.exe" size="33280">
+      <assemblyIdentity name="Pulsuz Mesaj" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>0BEe84qu/SbSVIRZaKZ6b5gmPqg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=Elvin-PC\Elvin" issuerKeyHash="60bafe0fa50e11cb15cb0794f11a5b8ae12e1f27" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>mJLrpuotMpC5bYFnPO+TBTyDMSs=</DigestValue></Reference></SignedInfo><SignatureValue>Yjvz0YRW+e3D+6vsS9XlIjCZ/UxVR6zQZLqUEP5h1HWR7xOvJx2ZF2u/lCOrda/sl9gO6EybkjFej7EArJ16hM2UMQmrjt7jXPgeOeconzdKiH6nJ40c5BdJ4h2Ol99XP7AjL5UUgBy7IAJQzUdrPAj9xoAOt+UIFgd3TlO5cAc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6ZrNlUhNIuKTbs42iiDCZyVrUr0N6iuB/OUgPQp+zeVUV6tvpTVyO1tuDMHBmiZn4yLjUCOAUlNIWHGNqnFaizvElq8m7/lSIqYfNJQWMfWDCVkmeI5oVlHUhpxBO/gLFduM1HINzMmpUxMsEFpGTFh2nEzcUv1mto6+NN5O3hs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2b31833c0593ef3c67816db990322deaa6eb9298" Description="" Url=""><as:assemblyIdentity version="1.0.0.0" name="Pulsuz Mesaj.exe" publicKeyToken="6c5103b17ebfadf7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Elvin-PC\Elvin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>DfBp1108diyxgYV7Bg7kwMg8pVo=</DigestValue></Reference></SignedInfo><SignatureValue>EmyBEkPN+epIUvGv58QGl1ZjxOnmAyOxK6w0y7dZjU52qhEVkZX3h+BSvp/2SKv6U83Jht+CMIqIqoNZJFpO1FVIWVht4MxcAn6/lix4mHQ9gey4B5H2LxhS8+uTQgTrAs7zfNOEKMKeaE6qkj5Ty1kzsX0Yv8qPo74MGFQvGaA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6ZrNlUhNIuKTbs42iiDCZyVrUr0N6iuB/OUgPQp+zeVUV6tvpTVyO1tuDMHBmiZn4yLjUCOAUlNIWHGNqnFaizvElq8m7/lSIqYfNJQWMfWDCVkmeI5oVlHUhpxBO/gLFduM1HINzMmpUxMsEFpGTFh2nEzcUv1mto6+NN5O3hs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQcz/kkjhER4BDh9tIUhSypjANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwARQBsAHYAaQBuAC0AUABDAFwARQBsAHYAaQBuMB4XDTEwMDkxODEzNDkwNloXDTExMDkxODE5NDkwNlowJzElMCMGA1UEAx4cAEUAbAB2AGkAbgAtAFAAQwBcAEUAbAB2AGkAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA6ZrNlUhNIuKTbs42iiDCZyVrUr0N6iuB/OUgPQp+zeVUV6tvpTVyO1tuDMHBmiZn4yLjUCOAUlNIWHGNqnFaizvElq8m7/lSIqYfNJQWMfWDCVkmeI5oVlHUhpxBO/gLFduM1HINzMmpUxMsEFpGTFh2nEzcUv1mto6+NN5O3hsCAwEAATANBgkqhkiG9w0BAQUFAAOBgQAmungHfZoCZY/F1Fc+vZTxEPPGpXVKsiv8Lo3ig9ewuNee71jEohv2EQUIaqAXHaPFULZwQr+ArhsWkoKb1+ME6FaLsyiYxrtckRj8OEwCC2CnhYJgKxwvkWFkJEc4IlZrV8XXCEnKQKc7LJkA0TzwxmESwi3rt/00YFUj5zt3HQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

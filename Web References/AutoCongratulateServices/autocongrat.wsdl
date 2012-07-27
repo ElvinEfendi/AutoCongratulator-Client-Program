@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://yoxlama.com/soap/AutoCongratulateService" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://yoxlama.com/soap/AutoCongratulateService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://yoxlama.com/soap/AutoCongratulateService">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <xsd:complexType name="UserObject">
+        <xsd:all>
+          <xsd:element name="sign" type="xsd:string" />
+          <xsd:element name="username" type="xsd:string" />
+          <xsd:element name="password" type="xsd:string" />
+          <xsd:element name="mobileOperator" type="xsd:string" />
+          <xsd:element name="phoneNumber" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="AutoCongratObject">
+        <xsd:all>
+          <xsd:element name="id" type="xsd:int" />
+          <xsd:element name="title" type="xsd:string" />
+          <xsd:element name="receiverFullNumber" type="xsd:string" />
+          <xsd:element name="message" type="xsd:string" />
+          <xsd:element name="userId" type="xsd:int" />
+          <xsd:element name="birthDate" type="xsd:string" />
+          <xsd:element name="wasSent" type="xsd:int" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="AutoCongratObjectArray">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="SOAP-ENC:Array">
+            <xsd:attribute wsdl:arrayType="tns:AutoCongratObject[]" ref="SOAP-ENC:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="loginRequest">
+    <wsdl:part name="username" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="loginResponse">
+    <wsdl:part name="return" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="getUserObjectRequest">
+    <wsdl:part name="userId" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="getUserObjectResponse">
+    <wsdl:part name="return" type="tns:UserObject" />
+  </wsdl:message>
+  <wsdl:message name="createUserRequest">
+    <wsdl:part name="userObject" type="tns:UserObject" />
+  </wsdl:message>
+  <wsdl:message name="createUserResponse">
+    <wsdl:part name="return" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="updateUserRequest">
+    <wsdl:part name="userObject" type="tns:UserObject" />
+    <wsdl:part name="userId" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="updateUserResponse">
+    <wsdl:part name="return" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="deleteUserRequest">
+    <wsdl:part name="userId" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="deleteUserResponse">
+    <wsdl:part name="return" type="xsd:boolean" />
+  </wsdl:message>
+  <wsdl:message name="createAutoCongratRequest">
+    <wsdl:part name="autoCongrat" type="tns:AutoCongratObject" />
+  </wsdl:message>
+  <wsdl:message name="createAutoCongratResponse">
+    <wsdl:part name="return" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="updateAutoCongratRequest">
+    <wsdl:part name="autoCongrat" type="tns:AutoCongratObject" />
+    <wsdl:part name="bId" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="updateAutoCongratResponse">
+    <wsdl:part name="return" type="xsd:boolean" />
+  </wsdl:message>
+  <wsdl:message name="deleteAutoCongratRequest">
+    <wsdl:part name="bId" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="deleteAutoCongratResponse">
+    <wsdl:part name="return" type="xsd:boolean" />
+  </wsdl:message>
+  <wsdl:message name="getAutoCongratRequest">
+    <wsdl:part name="bId" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="getAutoCongratResponse">
+    <wsdl:part name="return" type="tns:AutoCongratObject" />
+  </wsdl:message>
+  <wsdl:message name="getAutoCongratsRequest">
+    <wsdl:part name="userId" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="getAutoCongratsResponse">
+    <wsdl:part name="return" type="tns:AutoCongratObjectArray" />
+  </wsdl:message>
+  <wsdl:portType name="AutoCongratulateServicePortType">
+    <wsdl:operation name="login">
+      <documentation>username ve password -u bazada yoxlayir uygun neticeni true ve ya false olaraq qaytarir</documentation>
+      <wsdl:input message="tns:loginRequest" />
+      <wsdl:output message="tns:loginResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getUserObject">
+      <documentation>userId-ye uygun melumat yazisini qaytarir</documentation>
+      <wsdl:input message="tns:getUserObjectRequest" />
+      <wsdl:output message="tns:getUserObjectResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createUser">
+      <documentation>userObject deki melumatlara uygun istifadeci yaradir</documentation>
+      <wsdl:input message="tns:createUserRequest" />
+      <wsdl:output message="tns:createUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateUser">
+      <documentation>istifadecinin melumatlarini yenileyir</documentation>
+      <wsdl:input message="tns:updateUserRequest" />
+      <wsdl:output message="tns:updateUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteUser">
+      <documentation>istifadecini sistemin bazasindan silir</documentation>
+      <wsdl:input message="tns:deleteUserRequest" />
+      <wsdl:output message="tns:deleteUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="createAutoCongrat">
+      <documentation>melumatlara uygun AvtoTebrik-dogum gunu yaradir</documentation>
+      <wsdl:input message="tns:createAutoCongratRequest" />
+      <wsdl:output message="tns:createAutoCongratResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateAutoCongrat">
+      <documentation>autocongrati yenileyir</documentation>
+      <wsdl:input message="tns:updateAutoCongratRequest" />
+      <wsdl:output message="tns:updateAutoCongratResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteAutoCongrat">
+      <documentation>autocongrati sistemin bazasindan silir</documentation>
+      <wsdl:input message="tns:deleteAutoCongratRequest" />
+      <wsdl:output message="tns:deleteAutoCongratResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getAutoCongrat">
+      <documentation>uygun avtotebriki qaytarir</documentation>
+      <wsdl:input message="tns:getAutoCongratRequest" />
+      <wsdl:output message="tns:getAutoCongratResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getAutoCongrats">
+      <documentation>uygun istifadecinin bazaya yazdigi avtotebrikleri qaytarir</documentation>
+      <wsdl:input message="tns:getAutoCongratsRequest" />
+      <wsdl:output message="tns:getAutoCongratsResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AutoCongratulateServiceBinding" type="tns:AutoCongratulateServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="login">
+      <soap:operation soapAction="http://yoxlama.com/AutoCongratulate/WebServices/autocongrat.php/login" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserObject">
+      <soap:operation soapAction="http://yoxlama.com/AutoCongratulate/WebServices/autocongrat.php/getUserObject" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createUser">
+      <soap:operation soapAction="http://yoxlama.com/AutoCongratulate/WebServices/autocongrat.php/createUser" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateUser">
+      <soap:operation soapAction="http://yoxlama.com/AutoCongratulate/WebServices/autocongrat.php/updateUser" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteUser">
+      <soap:operation soapAction="http://yoxlama.com/AutoCongratulate/WebServices/autocongrat.php/deleteUser" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAutoCongrat">
+      <soap:operation soapAction="http://yoxlama.com/AutoCongratulate/WebServices/autocongrat.php/createAutoCongrat" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateAutoCongrat">
+      <soap:operation soapAction="http://yoxlama.com/AutoCongratulate/WebServices/autocongrat.php/updateAutoCongrat" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteAutoCongrat">
+      <soap:operation soapAction="http://yoxlama.com/AutoCongratulate/WebServices/autocongrat.php/deleteAutoCongrat" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAutoCongrat">
+      <soap:operation soapAction="http://yoxlama.com/AutoCongratulate/WebServices/autocongrat.php/getAutoCongrat" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAutoCongrats">
+      <soap:operation soapAction="http://yoxlama.com/AutoCongratulate/WebServices/autocongrat.php/getAutoCongrats" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AutoCongratulateService">
+    <wsdl:port name="AutoCongratulateServicePort" binding="tns:AutoCongratulateServiceBinding">
+      <soap:address location="http://yoxlama.com/AutoCongratulate/WebServices/autocongrat.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

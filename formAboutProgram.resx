@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value> AvtoTəbrik sistemi - sizin ən vacib assistantınız olacaqdır, beləki bu sistem ilə siz bütün təbrik etmək istədiyiniz insanların doğum günlərini çox asanlıqla xatırlaya bilər və avtomatik təbrik edə bilərsiniz. Bunun üçün, təbrik etmək istədiyiniz insanın doğum gününü, telefon nömrəsini və ona yollayacağınız mesajı yazırsınız  və AvtoTəbriki yaradırsınız. Bundan sonra hər şeyi sistem özü edir. Doğum gününə bir gün qalmış o sizə sms ilə doğum gününü xatırladır. Sabahı gün - doğum günü, həmin insanı sizin adınızdan sms ilə təbrik edir. Təbrik göndərilən ana qədər onu silə və ya dəyişdirə bilərsiniz. Sms, Bakcell istifadəçiləri üçün tam fərqsiz, yəni adi telefonla necə, proqramla da elə göndərilir. Ancaq Azercell-lilərdə isə təbrikin məhz internet üzərindən gəldiyi bilinir. 
+ Xəbərlər - bu bölmədə anspress.az, lent.az, milli.az və musavat.com saytlarından son xəbərləri oxuya bilərsiniz.
+ Bakcell və Azercell - bu bölmədə Bakcell və Azercell -in internet saytlarında mövcud olan araüzdən istifadə edərək hazırlanmışdır. Proqramdan istifadə edərək daha rahat mesajlaşmaq mükündur. Bu proqramla Bakcell abunəçiləri gündəlik 5 pulsuz mesaj, Azercell abunəçiləri isə 10 pulsuz mesaj və 100 normal mesaj göndərə bilərlər.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wCBZxcAgWcXAIFnFwCBZxcAAAAAAwAAAA8AAAAmAAAAQAAAAFUAAABkOC0KkVxJ
+        EL5uWBTac1wV5HZeFelzXBXkblgU2lxJEL44LQqRAAAAZAAAAFUAAABAAAAAJgAAAA8AAAADgWcXAIFn
+        FwCBZxcAgWcXAP///wD///8A////AIFnFwCBZxcAgWcXAIFnFwAAAAAFAAAAFgAAADYJBwJWXksRsnxj
+        FvOdgyf/vaQ6/9S7R//cw0z/4MdO/9zDTP/Uu0f/vaQ6/52DJ/98YxbzXksRsgkHAlYAAAA2AAAAFgAA
+        AAWBZxcAgWcXAIFnFwCBZxcA////AP///wD///8AgWcXAIFnFwCBZxcAgWcXAAAAAAUAAAAWZ1ISj4Rq
+        Gf+xlzP/6tBU//PZWf/z2Vn/89lZ//LYV//y11f/8thX//PZWf/z2Vn/89lZ/+rQVP+xlzP/hGoZ/2dS
+        Eo8AAAAWAAAABYFnFwCBZxcAgWcXAIFnFwD///8A////AP///wCBZxcAgWcXAIFnFwCBZxcAAAAAA3xj
+        FpaagCX/4slO//LZV//x1VT/789Q/+7LTP/tx0n/7MVH/+zERv/sxUf/7cdJ/+7LTP/vz1D/8dVU//LZ
+        V//iyU7/nIIm/3xjFpYAAAADgWcXAIFnFwCBZxcAgWcXAP///wD///8A////AIFnFwCBZxcAgWcXAIFn
+        FwCBZxeWrJIv/+/VVf/x01L/78xM/+zERv/qvkL/6bo//+i4Pf/otzz/6LY8/+i3PP/ouD3/6bo//+q+
+        Qv/sxEb/78xM//HTUv/v1VX/rJIv/4FnF5aBZxcAgWcXAIFnFwCBZxcA////AP///wD///8AgWcXAIFn
+        FwCBZxcAgWcXkKuQLf/x1FL/785N/+zFRv/pvED/57c8/+a0Ov/mszn/5rM5/+azOf/mszn/5rM5/+az
+        Of/mszn/5rQ6/+e3PP/pvED/7MVG/+/OTf/x1FL/q5At/4FnF5CBZxcAgWcXAIFnFwD///8A////AP//
+        /wCBZxcAgWcXAIFnF3KbgCT/7c5P/+7KS//rwET/6Lg+/+ezO//msTn/5rE5/+axOf/msTn/5rE5/+ax
+        Of/msTn/5rE5/+axOf/msTn/5rE5/+ezO//ouD7/68BE/+7KS//tzk//m4Ak/4FnF3KBZxcAgWcXAP//
+        /wD///8A////AIFnFwCBZxcGhGkY/9++Rf/tx0n/6r5C/+e1PP/msTn/5a84/+WvOP/lrzj/5a84//z0
+        5P///////////////////////////+i6U//lrzj/5a84/+axOf/ntTz/6r5C/+3HSf/fvkX/hGkY/4Fn
+        FwaBZxcA////AP///wD///8AgWcXAIFnF4GvkCz/7MZI/+q+Qv/mtDz/5a84/+StN//krTf/5K03/+St
+        N//krTf/qIAp/+zk1P////////////////+lgjT/26Y1/+StN//krTf/5K03/+WvOP/mtDz/6r5C/+zG
+        SP+wkS3/gWcXgYFnFwD///8A////AP///wCBZxcDgmgY/+O7Qv/qvkL/57U8/+WuOP/kqzb/5Ks2/+Sr
+        Nv/kqzb/5Ks2/+SrNv/kqzb/6d3G/////////////////+CoNf/kqzb/5Ks2/+SrNv/kqzb/5Ks2/+Wu
+        OP/ntTz/6r5C/+O7Qv+CaBj/gWcXA////wD///8A////AIFnF0uggyv/6r5C/+e2Pf/lrjj/46o2/+Op
+        Nf/jqTX/46k1/+OpNf/jqTX/46k1/+OpNf/q3sb/////////////////46k1/+OpNf/jqTX/46k1/+Op
+        Nf/jqTX/46o2/+WuOP/ntj3/6r5C/6CDK/+BZxdL////AP///wD///8AgWcXkLyYNf/ntz7/5a85/+Oq
+        Nv/ipzT/4qc0/+KnNP/ipzT/4qc0/+KnNP/ipzT/4qc0/+rexv/////////////////ipzT/4qc0/+Kn
+        NP/ipzT/4qc0/+KnNP/ipzT/46k1/+WvOf/ntz7/vJg1/4FnF5D///8A////AP///wCBZxfAz6U7/+ax
+        Of/kqjX/4qYz/+KlMv/ipTL/4qUy/+KlMv/ipTL/4qUy/+KlMv/ipTL/6t3F/////////////////+Kl
+        Mv/ipTL/4qUy/+KlMv/ipTL/4qUy/+KlMv/ipjP/5Ko1/+axOf/PpTv/gWcXwP///wD///8A////AIFn
+        F9vZqT//5Ks2/+KlM//hojH/4aIx/+GiMf/hojH/4aIx/+GiMf/hojH/4aIx/+GiMf/q3cX/////////
+        ////////4aIx/+GiMf/hojH/4aIx/+GiMf/hojH/4aIx/+GiMf/ipTP/5Ks2/9mpP/+BZxfb////AP//
+        /wD///8AgWcX4dqpRv/ipjP/4KEx/+CgMP/goDD/4KAw/+CgMP/goDD/4KAw/+CgMP/goDD/4KAw/+rc
+        xf/////////////////goDD/4KAw/+CgMP/goDD/4KAw/+CgMP/goDD/4KAw/+ChMf/ipjP/2qlF/4Fn
+        F+H///8A////AP///wCBZxfb3rZr/+WvT//jqkn/4qdB/+GlPv/hozr/4KE1/+CgNP/fnjD/354v/9+e
+        L//fni//6dzF/////////////////9+eL//fni//354v/9+eL//fni//354v/9+eL//fni//354v/+Ch
+        MP/ZqlL/gWcX2////wD///8A////AIFnF8DXs3P/5K9X/+SuVf/krVT/5KxS/+OrUP/jqk7/46pN/+Op
+        TP/iqEr/4qdG/+GlQv/v5tb/////////////////4KA4/9+fNv/fnjT/350z/9+dM//fnTL/350y/96d
+        Mv/enTH/3pwx/8+mW/+BZxfA////AP///wD///8AgWcXjcWnaf/ms2L/5rBc/+WvWv/lrlj/5a1W/+St
+        Vf/krFP/5KtR/+SqUP/jqU7/+/Tn///////////////////////ipUT/4aRC/+GjQf/ho0D/4aI+/+Gh
+        Pf/goTz/4KA6/+CfOP/hoT7/vpxW/4FnF43///8A////AP///wCBZxdLqIxH/+zFiP/msmP/5rJh/+Wx
+        X//lsF7/5a9c/+SuWv/krVj/5KxW/+SrVf+nfj3/nnc5/552OP+edTb/nnU0/+KmS//ipkn/4qVH/+Gk
+        Rv/ho0T/4aJC/+CiQf/goUD/4KA+/+e2af+ihDr/gWcXS////wD///8A////AIFnFwOCaRn/6cyd/+i5
+        c//mtGn/5rNn/+azZf/lsWP/5bBh/+WwX//lr17/5K5b/+StWv/krFj/46tW/+OqVf/jqVP/4qlR/+Ko
+        UP/ip07/4qZM/+GlS//hpEj/4aRH/+GjRv/ip07/5L+F/4JoGP+BZxcD////AP///wD///8AgWcXAIFn
+        F4G5nV//786d/+i4cv/ntm//57Vt/+e0av/ms2n/5rJn/+axZf/lsGP/5a9h/+/PoP////////////HT
+        qP/kq1j/46pW/+OpVf/jqFP/46dR/+KmUP/ipk7/4qZO/+u/gv+yk0//gWcXgYFnFwD///8A////AP//
+        /wCBZxcAgWcXBoRqG//my57/7sya/+i5dv/ouHX/57dy/+e2cf/ntW//57Rt/+aza//msmn/+PLp////
+        /////////////+StYP/krV7/5Kxc/+OqWv/jqln/46lW/+KoVf/pvX7/4L6H/4RqGv+BZxcGgWcXAP//
+        /wD///8A////AIFnFwCBZxcAgWcXcqKGQf/x1bD/7s2e/+m8ff/ounr/6Ll4/+i4d//nt3T/57Zy/+e1
+        cf/Mtpf////////////MuZ7/5bBn/+WwZv/kr2T/5K1h/+SsYP/jrGD/6sCF/+3Lmv+dgTn/gWcXcoFn
+        FwCBZxcA////AP///wD///8AgWcXAIFnFwCBZxcAgWcXkLebXv/z2bb/8NKq/+vAif/pvID/6bt+/+m6
+        ff/ouXv/6Lh5/8yhaf+hf1L/oX9R/8abYv/ms3D/5rNu/+aybP/lsGr/57Rx/+3Hlf/vzqL/sZNR/4Fn
+        F5CBZxcAgWcXAIFnFwD///8A////AP///wCBZxcAgWcXAIFnFwCBZxcAgWcXlrebX//y2Lf/8tm3/+/O
+        o//qwYr/6r6E/+m9gv/pvID/6Lt//+i6ff/ouXv/6Lh5/+e3eP/ntnb/57h5/+zGk//w0aj/7s+m/7OV
+        Vf+BZxeWgWcXAIFnFwCBZxcAgWcXAP///wD///8A////AIFnFwCBZxcAgWcXAIFnFwCBZxcAgWcXkKOI
+        Rf/pz6v/89u7//Pauv/x1K//7syf/+zGlv/sw5D/68GM/+vBjP/rw5D/7ceX//DPpv/x1bD/8dSv/+XI
+        nf+ihkH/gWcXkIFnFwCBZxcAgWcXAIFnFwCBZxcA////AP///wD///8AgWcXAIFnFwCBZxcAgWcXAIFn
+        FwCBZxcAgWcXcoVrHP+9oWn/7dSy//Pbvf/z27z/89u8//Pau//z2br/89m5//LYuP/y2Lf/8te2/+vP
+        qf+6nWL/hGob/4FnF3KBZxcAgWcXAIFnFwCBZxcAgWcXAIFnFwD///8A////AP///wCBZxcAgWcXAIFn
+        FwCBZxcAgWcXAIFnFwCBZxcAgWcXBoFnF36BZxfnpIlH/8ywff/dw5n/5cum/+jOqf/lyqT/3MGW/8qu
+        ev+jh0T/gWcX54FnF36BZxcGgWcXAIFnFwCBZxcAgWcXAIFnFwCBZxcAgWcXAP///wD///8A////AIFn
+        FwCBZxcAgWcXAIFnFwCBZxcAgWcXAIFnFwCBZxcAgWcXAIFnFwCBZxc5gWcXh4FnF7SBZxfMgWcX1YFn
+        F8yBZxe0gWcXh4FnFzmBZxcAgWcXAIFnFwCBZxcAgWcXAIFnFwCBZxcAgWcXAIFnFwCBZxcA////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A//////gAAD/4AAA/+AAAP/gAAD/4AAA/8AAAH+AAAA/AAAAHwAAAB4AA
+        AAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADgAAAA4AAAAOAAAADwAAAB8AAAAfgAAAP8AAAH/gA
+        AD/8AAB//gAA//8AAf//4A////////////8=
+</value>
+  </data>
+</root>

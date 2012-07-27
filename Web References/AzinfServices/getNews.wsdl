@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://yoxlama.com/soap/AzinfService" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://yoxlama.com/soap/AzinfService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://yoxlama.com/soap/AzinfService">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <xsd:complexType name="MySoapObject">
+        <xsd:all>
+          <xsd:element name="newsTitle" type="xsd:string" />
+          <xsd:element name="newsId" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="MySoapObjectArray">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="SOAP-ENC:Array">
+            <xsd:attribute wsdl:arrayType="tns:MySoapObject[]" ref="SOAP-ENC:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="returnNewsArrayRequest">
+    <wsdl:part name="agent" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="returnNewsArrayResponse">
+    <wsdl:part name="return" type="tns:MySoapObjectArray" />
+  </wsdl:message>
+  <wsdl:portType name="AzinfServicePortType">
+    <wsdl:operation name="returnNewsArray">
+      <documentation>Processes an array of MySoapObjects and returns one of them</documentation>
+      <wsdl:input message="tns:returnNewsArrayRequest" />
+      <wsdl:output message="tns:returnNewsArrayResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AzinfServiceBinding" type="tns:AzinfServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="returnNewsArray">
+      <soap:operation soapAction="http://yoxlama.com/azinf/WebServices/getNews.php/returnNewsArray" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AzinfService">
+    <wsdl:port name="AzinfServicePort" binding="tns:AzinfServiceBinding">
+      <soap:address location="http://yoxlama.com/azinf/WebServices/getNews.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,20 @@
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\bin\Debug\Pulsuz Mesaj.exe.config
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\bin\Debug\Pulsuz Mesaj.exe.manifest
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\bin\Debug\Pulsuz Mesaj.application
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\bin\Debug\Pulsuz Mesaj.exe
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\bin\Debug\Pulsuz Mesaj.pdb
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formAboutProgram.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formAcBirthday.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formAcUserProfile.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formAcUserRegistration.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formFeedBack.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formMain.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.formViewNews.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz_Mesaj.Properties.Resources.resources
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\VirtualAssistent.csproj.GenerateResource.Cache
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz Mesaj.TrustInfo.xml
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz Mesaj.exe.manifest
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz Mesaj.application
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz Mesaj.exe
+C:\Users\Elvin\Documents\Visual Studio 2008\Projects\Pulsuz Mesaj(AutoCongrat)-(11-27-2010)\Pulsuz Mesaj\obj\Debug\Pulsuz Mesaj.pdb
