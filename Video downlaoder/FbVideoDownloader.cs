@@ -12,8 +12,8 @@ namespace Pulsuz_Mesaj.Video_downlaoder
         public FbVideoDownloader(string videoPageUrl)
             : base(videoPageUrl)
         {
-            this.login = "bakcell_mmc@hotmail.com";
-            this.pass = "firildaq";
+            this.login = "";
+            this.pass = "";
         }
 
         public FbVideoDownloader(string videoPageUrl, string login, string pass)
